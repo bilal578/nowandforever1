@@ -1,0 +1,53 @@
+.aboutMainBanner{
+    background-color: #CE0E2D;
+    height: 400px;
+}
+.aboutMainBanner>div{
+    max-width: 1200px;
+}
+.aboutMainBanner h1{
+    font-weight: 700 !important;
+    font-size: 48px !important;
+    line-height: 3.2rem;
+}
+.aboutMainBanner p{
+    font-weight: 400px !important;
+    font-size: 16px !important;
+}
+.aboutMainBanner button{
+    
+        padding: 10px 28px; 
+        text-align: center; 
+        font-size: 16px !important;
+        font-weight: 700 !important;
+        cursor: pointer; 
+        border-radius: 8px; 
+        transition: background-color 0.3s ease; 
+        position: relative;
+        right: 10px;
+        bottom: 18px;
+    
+    /* font-weight: 700 !important;
+    font-size: 16px !important;
+    padding:13px 15px 5px 15px; */
+}
+.aboutMainBanner button:hover{
+    color: #CE0E2D !important;
+}
+.aboutMainBanner span{
+    color: #CE0E2D !important;
+    display: inline-block;
+    /* padding: 6px 5px 0px 5px; */
+}
+.aboutBannerLeft{
+    max-width: 500px;
+}
+@media (max-width: 991px){
+    .aboutMainBanner{
+        height: auto;
+    }
+    .aboutMainBanner h1{
+        font-size: 28px !important;
+        line-height: 2.2rem;
+    }
+}

@@ -1,0 +1,53 @@
+.service02-Sec04{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.service02-Sec04 h1{
+    font-weight: 700 !important;
+    font-size: 40px !important;
+    color: #1b1b1b !important;
+}
+.service02-Sec04 h1 span{
+    color: #CE0E2D !important;
+}
+.service02-Sec04 h3{
+    font-weight: 700 !important;
+    font-size: 28px !important;
+    color: #1b1b1b !important;
+}
+.service02-Sec04 p{    
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    color: #1b1b1b !important;
+}
+.explorePromotions p{    
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #1b1b1b !important;
+}
+.explorePromotions .nav-link {
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: #CE0E2D !important;
+
+}
+.bottom-pink{
+    border: 1px solid white !important;
+}
+.bottom-pink:hover{
+    border-bottom: 1px solid #CE0E2D !important;
+    transition: 0.5s all;
+}
+@media (max-width: 991px) {
+    .service02-Sec04{
+        margin: 50px 16px;
+        text-align: left;
+    }
+    .service02-Sec04 h1{
+        font-size: 28px !important;
+        text-align: center;
+    }
+    .service02-Sec04 h3{
+        text-align: center;
+    }
+}

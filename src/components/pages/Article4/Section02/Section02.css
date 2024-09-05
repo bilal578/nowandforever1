@@ -1,0 +1,76 @@
+.aboutsecondBanner-art4-sec2{
+    max-width: 1200px;
+    margin-top: 30px;
+    
+}
+.aboutsecondBanner-art4-sec2>div{
+    width: 50%;
+    
+}
+.aboutsecondBanner-art4-sec2 .img-cont{
+    width: 50%;
+}
+.aboutsecondBanner-art4-sec2 h1{
+    font-weight: 700 !important;
+    font-size: 44px !important;
+    color: #1b1b1b !important;
+}
+
+.aboutsecondBanner-art4-sec2 p{
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    max-width: 580px;
+    color:gray;
+    margin-top: -180px;
+   
+}
+.aboutsecondBanner-art4-sec2 button{
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    padding:13px 15px 5px 15px;
+}
+.para-container{
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    /* border: solid black; */
+    margin: 0 auto;
+    
+}
+.para{
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 20px 0;
+    text-align: left;
+    color: gray;
+}
+
+@media (max-width: 991px) {
+    .aboutsecondBanner-art4-sec2{
+        text-align: center;
+    }
+    .aboutsecondBanner-art4-sec2>div{
+        text-align: center;
+        width: 100%;
+    }
+    .aboutsecondBanner-art4-sec2 .img-cont{
+        width: 100%;
+        text-align: center;
+
+    }
+    .aboutsecondBanner-art4-sec2 p{
+        text-align: center;
+
+       max-width: 580px;
+       margin-top: 5px;
+       
+    }
+    .para-container{
+        text-align: center;
+    }
+    .para{
+        text-align: center;
+        margin: 20px 10px 0px;
+        font-size: 1.2rem;
+    }
+}

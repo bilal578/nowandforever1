@@ -1,0 +1,93 @@
+.contactUserSection{
+    max-width: 1000px;
+    margin: 100px auto;
+
+}
+.contactUserSection .contact_form{
+    max-width: 433px;
+    max-height: 478px;
+}
+.contactUserSection .social_box{
+    max-width: 392px;
+    max-height: 243px;
+}
+.contactUserSection .social_box .nav-link{
+    font-family: 'GothamLight' !important;
+}
+.fontGotham{
+    font-family: 'GothamLight' !important;
+}
+.contactUserSection h3{
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    color: #1b1b1b !important;
+} 
+.contactUserSection input,
+.contactUserSection textarea{
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    color: #747474 !important;
+    border-bottom: 1px solid #0000009f !important;
+    resize: none;
+    box-shadow: none !important;
+    font-family: 'GothamLight' !important;
+}
+.contactUserSection textarea::placeholder{
+    position: absolute;
+    bottom: 5px;
+}
+.contactUserSection button{
+    font-family: 700 !important;
+    font-size: 16px !important;
+    padding:5px 15px 5px 15px;
+}
+.contactUserSection p{
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    color: #1A1A1A !important;
+}
+.sucessAlertBox, .errortAlertBox{
+    position: fixed !important;
+    top: 10px;
+    margin: auto;
+    width: fit-content;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.social-hover-contact{
+    background-color: #C71002;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: rotate ease 0.1s;
+}
+.social-hover-contact img{
+    transition: rotate ease 0.1s;
+}
+.social-hover-contact:hover{
+    rotate: 45deg;
+}
+.social-hover-contact:hover img{
+    rotate: -45deg;
+}
+@media (max-width: 991px){
+    .contactUserSection .contact_form{
+        max-width:  unset;
+        max-height: unset;
+    }
+    .contactUserSection .social_box{
+        max-width: unset;
+        max-height: unset;
+    }
+    .contactUserSection h3{
+        text-align: center;
+    }
+    .contactUserSection p{
+        text-align: center;
+        word-break: break-all;
+    }
+}

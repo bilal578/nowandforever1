@@ -1,0 +1,111 @@
+.service-main-container-sec4-2 {
+    /* border: solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.poly-img-cont-left {
+    position: relative;
+    max-height: 300px;
+    top: 186px;
+    left: 74px;
+
+}
+
+.poly-img-cont-left:hover>.poly-img-para {
+
+    color: gray !important;
+    position: absolute;
+    max-width: fit-content;
+    text-align: center;
+    top: -135px;
+    left: -71px;
+    font-size: x-large;
+    transition: 0.8s ease-in-out;
+}
+
+.poly-img-container-center {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.poly-img-cont-right {
+    position: relative;
+    max-height: 305px;
+    top: 173px;
+    right: 92px;
+    max-width: 500px;
+    width: 500px;
+}
+
+.img-center-2 {
+    position: relative;
+    bottom: 78px;
+    left: 17px;
+}
+
+.poly-img-para {
+    color: transparent;
+    position: absolute;
+    max-width: fit-content;
+    text-align: center;
+    font-size: x-large;
+    top: -135px;
+    left: -71px;
+
+
+}
+
+.poly-img-center-para {
+    color: transparent;
+    position: absolute;
+    top: 500px;
+    /* right: 740px; */
+    max-width: fit-content;
+    text-align: center;
+    font-size: x-large;
+}
+
+.poly-img-container-center:hover>.poly-img-center-para {
+    color: gray !important;
+    position: absolute;
+    top: 520px;
+    /* right: 740px;
+    max-width: fit-content; */
+    text-align: center;
+    font-size: 18px;
+    transition: 0.8s ease-in-out;
+    left: 38%;
+    max-width: 500px;
+}
+
+.poly-img-right-para {
+    color: transparent;
+    position: absolute;
+    bottom: 334px;
+    left: 215px;
+    max-width: fit-content;
+    text-align: center;
+    font-size: x-large;
+}
+.poly-img-cont-right:hover>.poly-img-right-para{
+     color: gray !important; 
+    position: absolute;
+    bottom: 334px;
+    left: 215px;
+    max-width: fit-content;
+    text-align: center;
+    font-size: x-large;
+    transition: 0.8s ease-in-out;
+
+}
+@media (max-width: 991px){
+    .service-main-container-sec4-2 {
+           display: none !important;
+    
+    }
+  
+}
+

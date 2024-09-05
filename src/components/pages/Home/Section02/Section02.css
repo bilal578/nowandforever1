@@ -1,0 +1,195 @@
+.custom-height{
+    height:104vh;
+}
+
+.custom-button{
+    padding:10px !important;
+}
+
+.bg-solid-pink{
+    background-color: #CE0E2D !important;
+}
+.box-des-slider{
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.box-des-slider h2{
+    /* font-weight: 700 !important; */
+    font-size: 40px !important;
+}
+.box-des-slider p{
+    font-weight: 400 !important;
+    font-size: 18px !important;
+}
+.box-des-slider .btn{
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    font-family: 'GothamLight' !important;
+    /* padding:13px 15px 5px 15px; */
+}
+.box-des-slider .btn:hover{
+    color: #CE0E2D !important;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #9C9C9C !important;
+    opacity: 1 !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+.carousel-indicators .active {
+    background-color: #CE0E2D !important;
+    width: 25px !important;
+    border-radius: 20%/50% !important;
+   
+}
+.slide_mobile{
+    display: none;
+}
+.carousalCaption{
+    top: 0 !important;
+    right: 0 !important;
+    left: unset !important;
+}
+.carousel-control-prev, .carousel-control-next{
+    opacity: 1 !important;
+    width: 65px !important;
+    height: 65px !important;
+    position: absolute !important;
+    top: 38% !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+}
+.carousel-control-prev{
+    left: 30px !important;
+}
+.carousel-control-next{
+    right: 30px !important;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover{
+    filter: invert(15%);
+}
+.banner-button-1{
+    position: absolute;
+    /* position: static; */
+    top: auto;
+    bottom: 40%;
+    right: 314px;
+}
+.banner-button-2{
+    position: relative;
+    z-index: 99;
+    top: auto;
+    bottom: 20%;
+    right: 587px;
+}
+.banner-button-3{
+    display: none;
+}
+/* .carousel-item{
+    position: relative;
+} */
+.ban-btn{
+    border-radius: 15px   ;
+    border: 1px solid white;
+    padding: 10px 30px;
+    background: transparent;
+    color: white;
+    transition: background-color 0.3s ease; 
+
+}
+.ban-btn-1{
+   display: none;
+
+}
+.ban-btn:hover{
+   color: #CE0E2D;
+   border: solid black 1px;
+   background-color: white;
+
+}
+/* .new-banner{
+    position:"realtive";
+    margin:"auto"; 
+} */
+.new-btn{
+    position:"absolute"!important;
+    top:"48%" !important;
+    bottom:"0%"!important;
+    right:"0%"!important;
+    left: "70%"!important;
+    transform : translate(-50% , -50%);
+}
+.new-btn2{
+    position:"absolute";
+    top:68%;
+    bottom:0%;
+    right:0%;
+    left: 70%;
+    transform : translate(-50% , -50%);
+    
+}
+
+
+#homeMainSlider .carousel-item:nth-child(2) div {
+    transform: translate(-100%, 0) !important;
+}
+
+#homeMainSlider .carousel-item:nth-child(3) div, #homeMainSlider .carousel-item:nth-child(4) div,#homeMainSlider .carousel-item:nth-child(5) div {
+    display:none !important;
+}
+
+
+
+
+
+@media (max-width: 991px) {
+    .carousalCaption{
+        position: static !important;
+        height: 250px !important;
+    }
+    .slide_desktop{
+        display: none;
+    }
+    .slide_mobile{
+        display: block;
+    }
+    .box-des-slider{
+        max-width: unset;
+    }
+    .box-des-slider h2{
+        font-size: 20px !important;
+    }
+    .box-des-slider p{
+        font-size: 14px !important;
+    }
+    .box-des-slider button.btn-pink{
+        font-size: 12px !important;
+        border-color: #CE0E2D;
+        color: #CE0E2D;
+    }
+}
+
+@media (max-width: 767px) {
+    #carouselExampleCaptions .carousel-item > div {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    
+    #carouselExampleCaptions .carousel-item:nth-child(2) > div {
+        transform: translate(-70%, -15%) !important;
+    }
+    #carouselExampleCaptions .carousel-item:nth-child(3) div, #carouselExampleCaptions  .carousel-item:nth-child(4) div,#carouselExampleCaptions .carousel-item:nth-child(5) div {
+        display:none !important;
+    }
+    .ban-btn {
+        padding: 5px 5px !important;
+        font-size: 6px !important;
+    }
+    #polygon_slider .d-flex.justify-content-center img {
+        margin: 20px auto !important;
+    }
+}
+.b{
+    border: 2px solid red;
+}

@@ -1,0 +1,97 @@
+.featuredJobsSec{
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.featuredJobsSec h1{
+    font-weight: 700 !important;
+    font-size: 40px !important;
+    color: #1b1b1b !important;
+}
+.featuredJobsSec span{
+    color: #CE0E2D !important;
+}
+.featuredJobsSec p{
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    max-width: 800px;
+}
+.featuredJobsSec input{
+    border-color: #1b1b1b !important;
+    outline: none !important;
+    font-size: 16px !important;
+    color: #747474 !important;
+    width: 320px;
+    background-image: url("../../../../assets/Careers/searchicon.svg");
+    background-repeat: no-repeat;
+    background-position: 15px;
+    padding-left: 40px;
+    font-family: 'GothamLight' !important;
+}
+.featuredJobsSec .dropdown-toggle{
+    border-color: #1b1b1b !important;
+    font-size: 16px !important;
+    color: #747474 !important;
+    width: 320px;                                                                                                                                               
+}
+.featuredJobsSec .dropdown-menu{
+    border: 1px solid #747474 !important;
+    min-width: 320px;
+}
+.featuredJobsSec .dropdown-menu li .dropdown-item:hover{
+    background-color: #e6e3e3 !important;
+}
+.featuredJobsSec h3{
+    font-weight: 700 !important;
+    font-size: 40px !important;
+    color: #1b1b1b !important;
+}
+.featuredJobsSec ul{
+    border: 0;
+}
+.featuredJobsSec .nav-tabs button{
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    color: #1b1b1b !important;
+    border: 0 !important;
+}
+.featuredJobsSec .nav-tabs button.active{
+    font-weight: 700 !important;
+    color: #C71002 !important;
+    border-bottom: 1px solid #C71002 !important;
+}
+.featuredJobsSec .tab-content ul li{
+    border-color: #1b1b1b54 !important;
+    border-width: 1px !important;
+}
+.featuredJobsSec .tab-content ul li:first-child{
+    border-top-width: 2px !important;
+}
+.featuredJobsSec .tab-content ul li:last-child{
+    border-bottom-width: 2px !important;    
+}
+.featuredJobsSec .tab-content .nav-link{
+    color: #1b1b1b !important;
+    font-family: 'GothamLight' !important;
+}
+@media (max-width: 991px){
+    .featuredJobsSec input{
+        width: 260px;
+    }
+    .featuredJobsSec .dropdown-toggle{
+        width: 260px;                                                                                                                                               
+    }
+    .featuredJobsSec .dropdown-menu{
+        min-width: 260px;
+    }
+    .featuredJobsSec{
+      
+        margin: 20px auto;
+    }
+    .featuredJobsSec h3{
+        text-align: center;
+    }
+}
+
+.dropdown-toggle::after {
+    display: none !important
+}

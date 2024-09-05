@@ -1,0 +1,42 @@
+.careersMainBanner{
+    background-color: #CE0E2D;
+    height: 400px;
+}
+.careersMainBanner>div{
+    max-width: 1000px;
+}
+.careersMainBanner h1{
+    font-weight: 700 !important;
+    font-size: 36px !important;
+    line-height: 2.1rem;
+   
+}
+.careersMainBanner p{
+    font-weight: 400px !important;
+    font-size: 18px !important;
+}
+
+.careersMainBanner button:hover{
+    color: #CE0E2D !important;
+}
+.careersMainBanner span{
+    color: #CE0E2D !important;
+    display: inline-block;
+    padding: 0px 2px 0px 2px;
+   
+}
+.careersBannerLeft{
+    max-width: 500px;
+    
+}
+@media (max-width: 991px){
+    .careersMainBanner{
+        height: auto;
+    }
+    .careersMainBanner h1{
+        font-size: 28px !important;
+        line-height: 2.2rem;
+        width: 300px;
+    }
+  
+}

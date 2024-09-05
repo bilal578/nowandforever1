@@ -1,0 +1,57 @@
+.merch-sec01-NMERCH {
+    max-width: 1000px;
+}
+.merch-sec01-NMERCH h1 {
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    color: #1b1b1b !important;
+    margin: 70px 10px;
+}
+.merch-sec01-NMERCH h2 {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #1b1b1b !important;
+}
+
+.merch-sec01-NMERCH h3 {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: black !important ;
+}
+.product-info-NMERCH{
+    min-height: 70px;
+} 
+.merch-row-q-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+    .merch-sec01-NMERCH .mobile-res{
+        margin: auto;
+        max-width: 500px !important;
+
+    }
+    .merch-row-q-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .product-box-2{
+        width: 11.55rem !important;
+        position: relative;
+        top: 0;
+        transition: top ease 0.5s;
+        border: 3px solid black;
+        border-radius: 60px !important;
+        overflow: hidden;
+    }
+    .merch-sec01-NMERCH h3 {
+        font-size: 16px !important;
+        font-weight: 700 !important;
+        color: black !important ;
+    }
+
+
+    }
+    

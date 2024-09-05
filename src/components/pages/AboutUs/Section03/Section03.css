@@ -1,0 +1,47 @@
+.bd-sec-3{
+    background-color: #CE0E2D;
+}
+.aboutthirdBanner{
+    max-width: 1400px;
+    margin: 50px 0;
+}
+.aboutthirdBanner>div{
+    width: 50%;
+}
+.aboutthirdBanner h1{
+    font-weight: 700 !important;
+    font-size: 48px !important;
+}
+.aboutthirdBanner span{
+    color: #CE0E2D !important;
+}
+.aboutthirdBanner p{
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    max-width: 450px;
+    
+}
+.aboutthirdBanner button{
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    padding:5px 15px 5px 15px;
+
+}
+.aboutthirdBanner button:hover{
+    color: #CE0E2D !important;
+}
+
+@media (max-width: 991px) {
+    .bd-sec-3{
+        text-align: center;
+    }
+    .aboutthirdBanner>div{
+        width: 100%;
+    }
+}
+
+@media (max-width: 385px) {
+    .aboutthirdBanner h1{
+        font-size: 34px !important;
+    }
+}

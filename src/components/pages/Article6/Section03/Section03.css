@@ -1,0 +1,96 @@
+.aboutsecondBanner-Art6-sec2{
+    max-width: 1200px;
+    margin: 100px 0;
+}
+.aboutsecondBanner-Art6-sec2>div{
+    width: 50%;
+}
+.aboutsecondBanner-Art6-sec2 .img-cont{
+    width: 50%;
+}
+.article-6-img2{
+    border-radius: 30px;
+}
+.aboutsecondBanner-Art6-sec2 h1{
+    font-weight: 700 !important;
+    font-size: 44px !important;
+    color: #1b1b1b !important;
+}
+.aboutsecondBanner-Art6-sec2 span{
+    color: #CE0E2D !important;
+
+}
+.aboutsecondBanner-Art6-sec2 p{
+    font-weight: 400 !important;
+    font-size: 1.3rem !important;
+    max-width: 450px;
+    color: gray;
+    
+}
+.aboutsecondBanner-Art6-sec2 button{
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    padding:13px 15px 5px 15px;
+}
+
+
+
+
+.container-b {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: -60px;
+}
+
+.h1-b {
+    color: #333;
+    font-weight: 700 !important;
+    font-size: 44px !important;
+   
+}
+
+
+.pera-b {
+    margin: 10px 0 20px;
+    color: #666;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+  
+}
+
+@media (max-width: 768px) {
+    .h1-b {
+        font-size: 24px;
+        text-align: center;
+    }
+     p {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .h1-b {
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    p 
+    {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+@media (max-width: 991px) {
+    .aboutsecondBanner-Art6-sec2{
+        text-align: center;
+        margin: 0px 0 32px;
+    }
+    .aboutsecondBanner-Art6-sec2>div{
+        width: 100%;
+    }
+    .aboutsecondBanner-Art6-sec2 .img-cont{
+        width: 100%;
+    }
+}

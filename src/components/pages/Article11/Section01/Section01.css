@@ -1,0 +1,49 @@
+.contactMainBanner-art11-sec1{
+    background-color: #CE0E2D;
+    height: 400px;
+    
+}
+.contactMainBanner-art11-sec1>div{
+    max-width: 1200px;
+}
+.contactMainBanner-art11-sec1 h1{
+    font-weight: 700 !important;
+    font-size: 48px !important;
+    line-height: 3rem;
+}
+.contactMainBanner-art11-sec1 p{
+    font-weight: 400px !important;
+    font-size: 18px !important;
+}
+.contactMainBanner-art11-sec1 button{
+        padding: 10px 28px; 
+        text-align: center; 
+        font-size: 16px !important;
+        font-weight: 700 !important;
+        cursor: pointer; 
+        border-radius: 8px; 
+        transition: background-color 0.3s ease;
+    /* font-weight: 700 !important;
+    font-size: 16px !important;
+    padding:13px 15px 5px 15px; */
+}
+.contactMainBanner-art11-sec1 button:hover{
+    color: #CE0E2D !important;
+}
+.contactMainBanner-art11-sec1 span{
+    color: #CE0E2D !important;
+    display: inline-block;
+    /* padding: 5px 5px 0px 5px; */
+}
+.contactBannerLeft-art11-sec1{
+    max-width: 60%;
+}
+@media (max-width: 991px){
+    .contactMainBanner-art11-sec1{
+        height: auto;
+    }
+    .contactMainBanner-art11-sec1 h1{
+        font-size: 28px !important;
+        line-height: 2.0rem;
+    }
+}

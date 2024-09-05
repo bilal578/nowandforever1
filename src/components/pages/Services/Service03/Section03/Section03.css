@@ -1,0 +1,27 @@
+.res_partners_div{
+    max-width: 1200px;
+}
+.res_partners_div .box{
+    height: 150px;
+}
+.res_partners_div h1{
+    font-size: 36px !important;
+    font-weight: 700 !important;
+}
+.res_partners_div h1 span{
+    color: #CE0E2D !important;
+}
+.res_partners_div h3{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+.res_partners_div p{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+@media (max-width: 991px) {
+    .res_partners_div h1{
+        font-size: 28px !important;
+        padding: 0 1.5rem;
+    }
+}

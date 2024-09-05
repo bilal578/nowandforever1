@@ -1,0 +1,25 @@
+.card-containerArticle11 { 
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    /* max-width: 1200px; */
+    margin-top: 100px;
+    margin-bottom:40px ;
+    margin-bottom: 40px;
+    
+
+}
+  
+/* .card {
+    background-color: #c8102e;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    margin: 20px;
+    padding-bottom: 20px;
+} */
+

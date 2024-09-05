@@ -1,0 +1,65 @@
+.servicesMainBanner4{
+    background-color: #CE0E2D;
+    height: 400px;
+}
+.servicesMainBanner4>div{
+    max-width: 1200px;
+}
+.servicesMainBanner4 h1{
+    font-weight: 700 !important;
+    font-size: 48px !important;
+    line-height: 2.5rem;
+    
+}
+.servicesMainBanner4 p{
+    font-weight: 400px !important;
+    font-size: 18px !important;
+}
+.servicesMainBanner4 button{
+        color: white; 
+        padding: 15px 32px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px !important;
+        font-weight: 700 !important;
+        margin: 4px 2px; 
+        cursor: pointer; 
+        border-radius: 8px; 
+        transition: background-color 0.3s ease; 
+    /* font-weight: 700 !important;
+    font-size: 16px !important;
+    padding:13px 15px 5px 15px; */
+}
+.servicesMainBanner4 button:hover{
+    color: #CE0E2D !important;
+}
+.servicesMainBanner4 span{
+    color: #CE0E2D !important;
+    display: inline-block;
+    padding: 2px 5px 0px 5px;
+    height: 2.8rem;
+    margin-top: 10px;
+}
+.servicesBannerLeft{
+    max-width: 650px;
+}
+@media (max-width: 991px){
+    .servicesMainBanner4{
+        height: auto;
+    }
+    .servicesMainBanner4 h1{
+        font-size: 28px !important;
+        line-height: 2rem;
+    }
+    .servicesMainBanner4 span{
+        color: #CE0E2D !important;
+        display: inline-block;
+        /* padding: 2px 5px 0px 5px ; */
+         padding: 1px 2px 1px 2px;
+          height: 2.1rem !important; 
+         margin-top: 4px;
+} 
+
+}
+

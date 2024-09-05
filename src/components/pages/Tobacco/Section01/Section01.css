@@ -1,0 +1,45 @@
+
+.merch-sec01-tobaco{
+    max-width: 1000px;
+}
+.merch-sec01-tobaco h1 {
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    color: #1b1b1b !important;
+    margin: 70px 10px;
+}
+.merch-sec01-tobaco h2 {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #1b1b1b !important;
+}
+.product-info-tobaco{
+    min-height: 100px;
+}
+.merch-sec01-tobaco h3 {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    
+}
+@media (max-width: 767px) {
+    .merch-sec01-tobaco .mobile-res{
+        margin: auto;
+    }
+    .tobacoo-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .tobacoo-mob-card{
+        width: 13.800rem !important;
+        min-height: 18.4375rem;
+        gap: 1rem;
+    }
+    .product-info-tobaco{
+        min-height: 90px;
+    }
+    .product-box{
+        border-radius: 54px;
+    }
+} 

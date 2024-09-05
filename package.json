@@ -1,0 +1,64 @@
+{
+  "name": "now-and-forever",
+  "homepage": "https://hamza-tariq.gitlab.io/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "",
+    "@emailjs/browser": "^4.3.3",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "firebase": "^10.11.1",
+    "gotham-fonts": "^1.0.3",
+    "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
+    "jquery-ui-dist": "^1.13.3",
+    "leaflet": "^1.9.4",
+    "popper.js": "^1.16.1",
+    "react": "^18.2.0",
+    "react-axios": "^2.0.6",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "sass": "^1.77.2"
+  }
+}

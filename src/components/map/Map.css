@@ -1,0 +1,148 @@
+.branch-list {
+    width: 400px;
+}
+.branch-list::-webkit-scrollbar {
+    width: 10px;
+}
+.branch-list::-webkit-scrollbar-track {
+    background: #f8d8d8;
+}
+.branch-list::-webkit-scrollbar-thumb {
+    background: #CE0E2D;
+    transition: all 0.4s;
+}
+.branch-list::-webkit-scrollbar-thumb:hover {
+    background: #b80422;
+}
+.branch-item h3 {
+    font-size: 14px !important;
+    font-weight: 900 !important;
+    color: #CE0E2D;
+}
+.branch-item p {
+    font-size: 13px;
+
+}
+.branch-item i {
+    color: #CE0E2D;
+}
+.branch-item .nav-link {
+    font-size: 12px;
+    letter-spacing: 1px;
+    background-color: #CE0E2D;
+    color: #f0f0f0;
+    width: fit-content;
+    height: fit-content;
+    transition: all 0.4s;
+}
+.branch-item .nav-link:hover {
+    color: #CE0E2D;
+    background-color: #f8d8d8;
+}
+.unselected-branch .location-icon-map{
+    fill: #d47383 !important;
+    width: 20px;
+    height: 20px;
+}
+.unselected-branch .location-icon-map:hover{
+    fill: #CE0E2D !important;
+}
+.selected-branch .location-icon-map-selected{
+    fill: #CE0E2D !important;
+    width: 26px;
+    height: 26px;
+    transition: all 0.4s;
+}
+.branch-item .nav-link:focus {
+    color: white !important;
+    transition: all 0.4s;
+}
+.branch-list .branch-item:hover {
+    background-color: #cec3c3e7 !important;
+}
+.leaflet-control-attribution{
+    display: none;
+}
+.leaflet-touch .leaflet-bar{
+    border: none;
+    margin: 0 10px 10px 0;
+}
+.leaflet-touch .leaflet-bar a:first-child{
+    background-color: #CE0E2D;
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+    transition: all 0.4s;
+}
+.leaflet-touch .leaflet-bar a:last-child{
+    background-color: #CE0E2D;
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    transition: all 0.4s;
+}
+.leaflet-touch .leaflet-bar a:hover{
+    background-color: #f8d8d8 !important;
+}
+.leaflet-touch .leaflet-bar a:hover span{
+    color: #CE0E2D;
+}
+.leaflet-touch .leaflet-bar a span{
+    color: #f8d8d8;
+    font-family: 'GothamLight' !important;
+    font-weight: 100;
+    font-size: 30px;
+}
+.leaflet-control-container>div{
+    bottom: 0;
+    top: unset;
+    right: 0;
+    left: unset;
+}
+.map-close-button{
+    right: 10px;
+    top: -48px;
+    z-index: 999;
+}
+.map-close-button .icon::before{
+    font-size: 30px;
+    color: #CE0E2D;
+    transition: all 0.4s;
+    background-color: #f8d8d8;
+    border-radius: 10px;
+}
+.map-close-button:hover .icon::before{
+    color: #f8d8d8;
+    background-color: #CE0E2D !important;
+}
+.leaflet-popup-close-button{
+    color: #CE0E2D !important;
+    background: transparent !important;
+    top: 5px !important;
+    right: 5px !important;
+}
+.leaflet-popup-close-button span{
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+.map-div-page{
+    height: calc(100vh - 147px);
+}
+
+.main-section:has(.noFooterSearch) + .bg-lower-footer .bg-footer{
+    display: none !important;
+}
+@media (max-width: 768px) {
+    .mapbox-customClass{
+        height: 100%;
+    }
+    .branch-list {
+        width: 100%;
+        max-height: 40%;
+    }
+    .leaflet-popup-content{
+        width: auto !important;
+        min-width: 210px;
+    }
+    .mapbox-mobile{
+        height: calc(100vh - 62px);
+    }
+}

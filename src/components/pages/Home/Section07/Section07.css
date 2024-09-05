@@ -1,0 +1,8 @@
+.video-container{
+    margin: 100px 0;
+}
+@media (max-width: 991px){
+    .video-container{
+        margin: 50px 0;
+    }
+}

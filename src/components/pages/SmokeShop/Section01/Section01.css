@@ -1,0 +1,49 @@
+.merch-sec01 {
+    max-width: 1000px;
+}
+.merch-sec01 h1 {
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    color: #1b1b1b !important;
+    margin: 70px 10px;
+}
+.merch-sec01 h2 {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #1b1b1b !important;
+}
+
+.merch-sec01 h3 {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #dd0000  ;
+}
+.merch-sec01 .btn-pink {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    padding:13px 15px 5px 15px;                                           
+
+}
+.product-info-smokshop{
+    min-height: 90px;
+}
+.smoke-shop-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+    .merch-sec01 .mobile-res{
+        margin: auto;
+        max-width: 500px;
+
+    }
+    .smoke-shop-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .product-box{
+        width: 11.55rem;
+    }
+}

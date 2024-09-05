@@ -1,0 +1,111 @@
+.aboutsecondBannerArticle6{
+    max-width: 1200px;
+    margin: 100px 0;
+}
+.aboutsecondBannerArticle6>div{
+    width: 50%;
+}
+.aboutsecondBannerArticle6 .img-cont{
+    width: 50%;
+}
+.aboutsecondBannerArticle6 h1{
+    font-weight: 700 !important;
+    font-size: 44px !important;
+    color: #1b1b1b !important;
+}
+.aboutsecondBannerArticle6 span{
+    color: #CE0E2D !important;
+
+}
+.aboutsecondBannerArticle6 p{
+    font-weight: 400 !important;
+    font-size: 1.3rem !important;
+    max-width: 450px;
+    color: gray;
+
+    
+}
+.aboutsecondBannerArticle6 button{
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    padding:13px 15px 5px 15px;
+}
+
+.containerA {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: -50px;
+  
+   
+}
+
+.h1-1 {
+   
+    font-weight: 700 !important;
+    font-size: 44px !important;
+
+}
+.h1-2 {
+   
+    font-weight: 700 !important;
+   font-size: 44px !important;
+   margin-top: 70px;
+}
+
+.pera {
+    color: gray;
+    margin: 10px 0 20px;
+    font-weight: 400 !important;
+    font-size: 1.3rem !important;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+     p {
+        font-size: 16px;
+    }
+    .h1-1 {
+    
+        text-align: center;  
+    }
+    .h1-2 {
+   
+     text-align: center;
+    
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+        padding: 10px;
+    }
+    p 
+    {
+        font-size: 14px;
+    }
+    .h1-1 {
+    
+        text-align: center;  
+    }
+    .h1-2 {
+   
+     text-align: center;
+    
+    }
+}
+@media (max-width: 991px) {
+    .aboutsecondBannerArticle6{
+        text-align: center;
+        margin: 10px 0 65px;
+    }
+    .aboutsecondBannerArticle6>div{
+        width: 100%;
+    }
+    .aboutsecondBannerArticle6 .img-cont{
+        width: 100%;
+    }
+}

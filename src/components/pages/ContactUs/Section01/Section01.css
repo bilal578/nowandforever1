@@ -1,0 +1,48 @@
+.contactMainBanner{
+    background-color: #CE0E2D;
+    height: 400px;
+}
+.contactMainBanner>div{
+    max-width: 1200px;
+}
+.contactMainBanner h1{
+    font-weight: 700 !important;
+    font-size: 48px !important;
+    line-height: 3rem;
+}
+.contactMainBanner p{
+    font-weight: 400px !important;
+    font-size: 18px !important;
+}
+.contactMainBanner button{
+        padding: 10px 28px; 
+        text-align: center; 
+        font-size: 16px !important;
+        font-weight: 700 !important;
+        cursor: pointer; 
+        border-radius: 8px; 
+        transition: background-color 0.3s ease;
+    /* font-weight: 700 !important;
+    font-size: 16px !important;
+    padding:13px 15px 5px 15px; */
+}
+.contactMainBanner button:hover{
+    color: #CE0E2D !important;
+}
+.contactMainBanner span{
+    color: #CE0E2D !important;
+    display: inline-block;
+    /* padding: 5px 5px 0px 5px; */
+}
+.contactBannerLeft{
+    max-width: 500px;
+}
+@media (max-width: 991px){
+    .contactMainBanner{
+        height: auto;
+    }
+    .contactMainBanner h1{
+        font-size: 28px !important;
+        line-height: 2.0rem;
+    }
+}

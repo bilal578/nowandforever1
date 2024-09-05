@@ -1,0 +1,104 @@
+.aboutsecondBanner-art6-sec4{
+    max-width: 1200px;
+    margin: 100px 0;
+}
+.aboutsecondBanner-art6-sec4>div{
+    width: 50%;
+    margin-top: -20px;
+}
+.aboutsecondBanner-art6-sec4 .img-cont{
+    width: 50%;
+}
+.aboutsecondBanner-art6-sec4 h1{
+    font-weight: 700 !important;
+    font-size: 44px !important;
+    color: #1b1b1b !important;
+}
+.aboutsecondBanner-art6-sec4 span{
+    color: #CE0E2D !important;
+
+}
+.aboutsecondBanner-art6-sec4 p{
+    font-weight: 400 !important;
+    font-size: 1.3rem !important;
+    max-width: 450px;
+    color: gray;
+    
+}
+.aboutsecondBanner-art6-sec4 button{
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    padding:13px 15px 5px 15px;
+}
+
+
+
+
+.container-c {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: -80px;
+}
+
+.h1-c {
+    
+ font-weight: 700 !important;
+    font-size: 44px !important;
+}
+.h1-c2 {
+   
+     font-weight: 700 !important;
+    font-size: 44px !important;
+    margin-top: 70px;
+}
+
+.pera-c {
+    margin: 10px 0 20px;
+    color: #666;
+    font-weight: 400 !important;
+    font-size: 1.3rem !important;
+   
+}
+
+@media (max-width: 768px) {
+    .h1-c {
+        font-size: 20px;
+        text-align: center;
+    }
+    .h1-c2 {
+   
+       text-align: center;
+   }
+     p {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+        padding: 10px;
+        /* text-align: center; */
+
+    }
+    p 
+    {
+        font-size: 14px;
+        text-align: center;
+
+    }
+}
+@media (max-width: 991px) {
+    .aboutsecondBanner-art6-sec4{
+        text-align: center;
+        margin: 0px 0;
+    }
+    .aboutsecondBanner-art6-sec4>div{
+        width: 100%;
+    }
+    .aboutsecondBanner-art6-sec4 .img-cont{
+        width: 100%;
+    }
+}

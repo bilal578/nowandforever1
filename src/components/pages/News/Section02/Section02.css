@@ -1,0 +1,34 @@
+.newsMainSec{
+    max-width: 1100px;
+    margin: 100px auto;
+}
+.newsMainSec h2{
+    font-size: 23px !important;
+    font-weight: 700 !important;
+    color: #C71002 !important;    
+}
+.newsMainSec p{
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #C71002 !important;    
+   
+}
+.borderImgNews{
+    border: 1.8px solid #1B1B1B !important;
+    width: fit-content;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.hoverBox:hover .borderImgNews{
+    top: -10px;
+}
+@media (max-width: 991px){
+    .newsMainSec{
+        text-align: center;
+        margin: 10px;
+    }
+    .borderImgNews{
+        width: 100%;
+    }
+}

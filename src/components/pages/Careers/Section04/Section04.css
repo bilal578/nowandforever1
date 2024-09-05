@@ -1,0 +1,168 @@
+.ezy__testimonial21 {
+    /* Bootstrap variables */
+    --bs-body-color: #212529;
+    --bs-body-bg: rgb(255, 255, 255);
+  
+    /* Easy Frontend variables */
+    --ezy-theme-color: rgb(13, 110, 253);
+    --ezy-theme-color-rgb: 13, 110, 253;
+    --ezy-rating-rgb: 255, 215, 0;
+    --ezy-item-bg: #ffffff;
+    --ezy-item-shadow: 0px 6px 44px rgba(173, 174, 197, 0.2);
+    --ezy-arrow-shadow: -8px 25px 40px 0 rgba(0, 0, 0, 0.2);
+  
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+    overflow: hidden;
+    
+  }
+  
+  @media (min-width: 768px) {
+    .ezy__testimonial21 {
+      padding: 0px;
+    }
+  }
+  
+  /* Gray Block Style */
+  .gray .ezy__testimonial21,
+  .ezy__testimonial21.gray {
+    /* Bootstrap variables */
+    --bs-body-bg: rgb(246, 246, 246);
+  
+    /* Easy Frontend variables */
+    --ezy-item-bg: #fff;
+  }
+  
+  /* Dark Gray Block Style */
+  .dark-gray .ezy__testimonial21,
+  .ezy__testimonial21.dark-gray {
+    /* Bootstrap variables */
+    --bs-body-color: #ffffff;
+    --bs-body-bg: rgb(30, 39, 53);
+  
+    /* Easy Frontend variables */
+    --ezy-item-bg: rgb(11, 23, 39);
+    --ezy-item-shadow: 0px 6px 44px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Dark Block Style */
+  .dark .ezy__testimonial21,
+  .ezy__testimonial21.dark {
+    /* Bootstrap variables */
+    --bs-body-color: #ffffff;
+    --bs-body-bg: rgb(11, 23, 39);
+  
+    /* Easy Frontend variables */
+    --ezy-item-bg: rgb(30, 39, 53);
+    --ezy-item-shadow: 0px 6px 44px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ezy__testimonial21-heading {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  
+  @media (min-width: 768px) {
+    .ezy__testimonial21-heading {
+      font-size: 45px;
+      line-height: 45px;
+    }
+  }
+  
+  .ezy__testimonial21-sub-heading {
+    font-size: 18px;
+    line-height: 1.6;
+    opacity: 0.8;
+  }
+  
+  .ezy__testimonial21-item {
+    background-color: var(--ezy-item-bg);
+    box-shadow: var(--ezy-item-shadow);
+    border-radius: 15px;
+    transition: transform 0.25s ease-in-out;
+  }
+  
+  .ezy__testimonial21-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .ezy__testimonial21-item > img {
+    border-radius: 15px;
+    margin-top: -85px;
+  }
+  
+  .ezy__testimonial21-content * {
+    color: var(--bs-body-color);
+  }
+  
+  .ezy__testimonial21-social-links a {
+    display: inline-block;
+    opacity: 0.6;
+    transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out, color 0.25s ease-in-out;
+  }
+  
+  .ezy__testimonial21-social-links a:hover {
+    transform: translateY(5px);
+    color: var(--bs-body-color);
+    opacity: 1;
+  }
+  
+  .ezy__testimonial21-rating [class*="fa-"]:not(.active),
+  .ezy__testimonial21-rating [class*="fa-"]:not(.active) * {
+    font-size: 22px;
+    color: rgba(var(--ezy-rating-rgb), 0.2);
+  }
+  
+  .ezy__testimonial21-rating [class*="fa-"].active,
+  .ezy__testimonial21-rating [class*="fa-"].active * {
+    font-size: 22px;
+    color: rgba(var(--ezy-rating-rgb), 1);
+  }
+  
+  .ezy__testimonial21 .carousel-control-prev,
+  .ezy__testimonial21 .carousel-control-next {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--ezy-arrow-shadow);
+    color: var(--bs-body-color);
+  }
+  
+  .ezy__testimonial21 .carousel-control-prev:hover,
+  .ezy__testimonial21 .carousel-control-next:hover {
+    color: var(--bs-body-color) !important;
+  }
+  
+  .ezy__testimonial21-text {
+    line-height: 1.8;
+    opacity: 0.8;
+  }
+  .container-careers-btn{
+    display: flex;
+    justify-content: space-evenly ;
+    /* border: solid black; */
+    margin-top: 20px;
+}
+
+.arrow-button{
+  background-color: white;
+  border: none;
+  color: black;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /* transform: translateY(-50%); */
+   font-size: 30px;
+}
+
+.arrow-button:hover {
+  background-color: rgb(246, 246, 246);
+  
+ 
+}

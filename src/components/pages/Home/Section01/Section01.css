@@ -1,0 +1,65 @@
+.home-section01 input {
+    width: 500px;
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid #CE0E2D;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #1B1B1B75;
+    font-family: 'GothamLight' !important;
+}
+
+.home-section01 input::placeholder {
+    color: #1B1B1B50;
+}
+
+.map-div {
+    height: calc(100vh - 147px);
+    max-height: 700px;
+}
+
+.map-div>div {
+    max-width: 100%;
+}
+
+.fade-in {
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.fade-out {
+    animation: fadeOut 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .home-section01 input {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .map-div>div {
+        max-width: unset;
+    }
+}

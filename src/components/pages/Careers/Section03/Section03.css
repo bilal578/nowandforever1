@@ -1,0 +1,97 @@
+.careersLifeNaF {
+    max-width: 1054px;
+    margin: 0px auto;
+}
+.careersinfoSec>.accordion-flush::-webkit-scrollbar {
+    width: 5px;
+}
+.careersinfoSec>.accordion-flush::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(221, 219, 219);
+    border-radius: 0px;
+}
+.careersinfoSec>.accordion-flush::-webkit-scrollbar-thumb {
+    background: rgb(202, 202, 202);
+    border-radius: 0px;
+}
+.careersinfoSec>.accordion-flush {
+    width: 430px;
+    /* max-height: 400px; */
+    /* width: 370px; */
+}
+
+.careersinfoSec>h2 {
+    font-size: 38px !important;
+    font-weight: 700 !important;
+    color: #1b1b1b !important;
+    /* max-width: 282px; */
+}
+
+.careersinfoSec span {
+    color: #C71002 !important;
+}
+
+.careersinfoSec p {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    color: #1b1b1b !important;
+
+}
+.ul-career  {
+     list-style: disc;
+     font-size: 30px;
+}
+.ul-career h2{
+    font-size: x-large;
+}
+
+.careersinfoSec button.accordion-button {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #1b1b1b !important;
+    padding: 20px 5px;
+}
+
+/* .accordion-item {
+    border-bottom: 1px solid #1b1b1bb4 !important;
+    box-shadow: none !important;
+   
+} */
+
+.accordion-body {
+    padding: 0px 5px !important;
+}
+
+.accordion-button {
+    box-shadow: none !important;
+    background-color: white !important;
+}
+
+.accordion-button::after {
+    background-image: url("../../../../assets/Careers/accordionplus.svg") !important;
+    background-position: center;
+    transition: transform 0.1s ease-out !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../../../../assets/Careers/accordionminus.svg") !important;
+}
+
+@media (max-width: 991px) {
+    .careersinfoSec>.accordion-flush  {
+        width: calc(100vw - 10px);
+    }
+
+    .careersinfoSec>h2 {
+        text-align: center;
+        font-size: 35px !important;
+        max-width: unset !important;
+    }
+    .careersinfoSec span {
+        color: #C71002 !important;
+        text-align: center;
+    }
+}
+
+.accordion-button:focus {
+    z-index: 0 !important;
+}

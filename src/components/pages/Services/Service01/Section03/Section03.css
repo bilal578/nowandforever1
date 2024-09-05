@@ -1,0 +1,47 @@
+.service01-Sec03{
+    background-image: url("../../../../../assets/Services/servicesCarBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service01-Sec03>div{
+    max-width: 1400px;
+    margin-top: 200px;
+    padding: 80px 120px;
+}
+.service01-Sec03 h2{
+    font-size: 38px !important;
+    font-weight: 700 !important;
+    padding-top: 100px;
+}
+.service01-Sec03 p{
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+.servicesCar{
+    position: absolute;
+    top: -120px;
+    right: 20px;
+}
+.servicesCarInfo{
+    max-width: 600px;
+}
+.servicesMainImage{
+    width: 800px;
+}
+@media (max-width: 991px){
+    .service01-Sec03>div{
+        padding: 15px 25px;
+        margin-top: 50px;
+    }
+    .servicesCar{
+        position: static;
+    }
+    .service01-Sec03 h2{
+        font-size: 28px !important;
+        padding-top: 0;
+    }
+    .servicesCarInfo{
+        max-width: unset;
+        text-align: center;
+    }
+}

@@ -1,0 +1,64 @@
+.location-bg{
+    background-image: url("../../../../assets//Home/home-page-next-ban.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    margin: 80px 0 50px 0;
+}
+.location-bg>div{
+    max-width: 1050px;
+    
+}
+.location-bg>div h1{
+    /* max-width: 427px; */
+    font-size: 42px !important;
+    font-weight: 700 !important;
+}
+.banner-second{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    margin: 10px 10px 20px -15px;
+}
+.location-bg>div p{
+    max-width: 500px;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: white;
+}
+.location-bg>div .btn{
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    font-family: 'GothamLight' !important;
+    padding:13px 15px 5px 15px;
+}
+.location-bg>div .btn:hover{
+    color: #CE0E2D !important;
+}
+.handshakeimg{
+    display: none;
+}
+.anchor:hover{
+    background-color: transparent;
+}
+@media (max-width: 991px) {
+    .location-bg{
+        background-image: url("../../../../assets/Home/location_bg_mobile.svg");
+        height: 400px;
+        margin-top: 50px;
+    }
+    .location-bg>div h1{
+        text-align: center;
+        font-size: 32px !important;
+    }
+    .handshakeimg{
+        display: block;
+    }
+    .banner-second{
+        display: flex;
+        align-items: center;
+        margin: 10px 10px 20px 15px;
+    }
+}

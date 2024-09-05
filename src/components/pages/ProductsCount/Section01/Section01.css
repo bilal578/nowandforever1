@@ -1,0 +1,43 @@
+.productsCount-sec01 {
+    max-width: 1200px;
+}
+
+.productsCount-sec01 h1 {
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    color: #1b1b1b !important;
+    margin: 70px 10px 10px 10px;
+}
+
+.productsCount-sec01 p {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #1b1b1b !important;
+    max-width: 500px;
+}
+
+.imgBrand {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    background-color: #EBEBEB;
+    border-radius: 68px;
+    overflow: hidden;
+    width: 270px;
+    height: 270px;
+}
+
+.imgBrand:hover {
+    /* filter: invert(0%) sepia(100%) saturate(50%) hue-rotate(100deg) brightness(100%) contrast(100%); */
+    top: -10px;
+}
+
+
+.product-info{
+    min-height: 90px !important;
+}
+@media (max-width: 991px) {
+    .productsCount-box{
+        border-radius: 170px;
+    }
+}

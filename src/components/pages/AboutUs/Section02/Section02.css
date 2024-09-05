@@ -1,0 +1,43 @@
+.aboutsecondBanner{
+    max-width: 1200px;
+    margin: 100px 0;
+}
+.aboutsecondBanner>div{
+    width: 50%;
+}
+.aboutsecondBanner .img-cont{
+    width: 50%;
+}
+.aboutsecondBanner h1{
+    font-weight: 700 !important;
+    font-size: 44px !important;
+    color: #1b1b1b !important;
+}
+.aboutsecondBanner span{
+    color: #CE0E2D !important;
+
+}
+.aboutsecondBanner p{
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    max-width: 450px;
+    
+}
+.aboutsecondBanner button{
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    padding:7px 15px 5px 15px;
+}
+
+@media (max-width: 991px) {
+    .aboutsecondBanner{
+        text-align: center;
+        margin: 0px;
+    }
+    .aboutsecondBanner>div{
+        width: 100%;
+    }
+    .aboutsecondBanner .img-cont{
+        width: 100%;
+    }
+}
